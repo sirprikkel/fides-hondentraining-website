@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Samen Verder cursus bij Fides Hondentraining. Next level opvoedcursus voor honden vanaf 5 maanden. Kleine groepen van max. 3 honden.">
+    <title>Samen Verder cursus — Fides Hondentraining</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600;700&family=Varela+Round&display=swap" rel="stylesheet">
+    <script>tailwind.config={theme:{extend:{colors:{primary:'#F97316','primary-light':'#FB923C',cta:'#2563EB','cta-hover':'#1D4ED8',bg:'#FFF7ED','bg-alt':'#FEF3E2',text:'#9A3412','text-light':'#C2410C',dark:'#7C2D12'},fontFamily:{heading:['Varela Round','sans-serif'],body:['Nunito Sans','sans-serif']},borderRadius:{clay:'20px','clay-lg':'24px'}}}}</script>
+    <style>
+        *{font-family:'Nunito Sans',sans-serif}h1,h2,h3,h4,h5{font-family:'Varela Round',sans-serif}
+        .clay-card{border-radius:20px;border:3px solid rgba(249,115,22,.2);box-shadow:inset -2px -2px 8px rgba(255,255,255,.6),4px 4px 12px rgba(249,115,22,.15);transition:all .2s ease-out}
+        .clay-card:hover{box-shadow:inset -2px -2px 8px rgba(255,255,255,.8),6px 6px 16px rgba(249,115,22,.25);transform:translateY(-2px)}
+        .clay-btn{border-radius:16px;border:3px solid transparent;box-shadow:inset -2px -2px 6px rgba(255,255,255,.3),3px 3px 8px rgba(0,0,0,.15);transition:all .2s ease-out}
+        .clay-btn:hover{transform:translateY(1px)}.star{color:#F59E0B}
+        #mobile-menu{transition:transform .3s ease-out,opacity .3s ease-out}#mobile-menu.hidden{transform:translateX(100%);opacity:0}
+        @media(prefers-reduced-motion:reduce){.clay-card:hover,.clay-btn:hover{transform:none}}
+    </style>
+</head>
+<body class="bg-bg text-text font-body">
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md" style="border-bottom:3px solid rgba(249,115,22,.1)">
+        <div class="max-w-6xl mx-auto px-4 md:px-6 lg:px-8 flex items-center justify-between h-16 md:h-20">
+            <a href="index.html" class="flex items-center gap-3 cursor-pointer"><img src="images/logo_e47.png" alt="Logo" class="h-10 md:h-12 rounded-full"><span class="font-heading text-dark text-lg md:text-xl">Fides Hondentraining</span></a>
+            <div class="hidden md:flex items-center gap-6">
+                <a href="index.html" class="text-text hover:text-primary transition-colors cursor-pointer">Home</a>
+                <a href="puppycursus.html" class="text-text hover:text-primary transition-colors cursor-pointer">Puppycursus XXL</a>
+                <a href="samen-verder.html" class="text-primary font-semibold cursor-pointer">Samen Verder</a>
+                <a href="funklas.html" class="text-text hover:text-primary transition-colors cursor-pointer">Funklas</a>
+                <a href="prive.html" class="text-text hover:text-primary transition-colors cursor-pointer">Privé</a>
+                <a href="over-ons.html" class="text-text hover:text-primary transition-colors cursor-pointer">Over ons</a>
+                <a href="contact.html" class="clay-btn bg-cta text-white px-5 py-2.5 font-semibold cursor-pointer hover:bg-cta-hover min-h-[44px] flex items-center">Contact</a>
+            </div>
+            <button id="menu-toggle" class="md:hidden min-w-[44px] min-h-[44px] flex items-center justify-center cursor-pointer" aria-label="Menu"><svg class="w-7 h-7 text-dark" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+        </div>
+        <div id="mobile-menu" class="hidden fixed inset-0 z-50 bg-bg"><div class="flex items-center justify-between px-4 h-16" style="border-bottom:3px solid rgba(249,115,22,.1)"><span class="font-heading text-dark text-lg">Menu</span><button id="menu-close" class="min-w-[44px] min-h-[44px] flex items-center justify-center cursor-pointer" aria-label="Sluiten"><svg class="w-7 h-7 text-dark" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg></button></div><div class="flex flex-col gap-2 p-6"><a href="index.html" class="clay-card bg-white px-6 py-4 text-text font-semibold cursor-pointer text-lg">Home</a><a href="puppycursus.html" class="clay-card bg-white px-6 py-4 text-text font-semibold cursor-pointer text-lg">Puppycursus XXL</a><a href="samen-verder.html" class="clay-card bg-white px-6 py-4 text-primary font-semibold cursor-pointer text-lg">Samen Verder</a><a href="funklas.html" class="clay-card bg-white px-6 py-4 text-text font-semibold cursor-pointer text-lg">Funklas</a><a href="prive.html" class="clay-card bg-white px-6 py-4 text-text font-semibold cursor-pointer text-lg">Privé</a><a href="over-ons.html" class="clay-card bg-white px-6 py-4 text-text font-semibold cursor-pointer text-lg">Over ons</a><a href="contact.html" class="clay-btn bg-cta text-white px-6 py-4 font-semibold cursor-pointer text-lg text-center">Contact</a></div></div>
+    </nav>
+
+    <section class="py-16 md:py-24">
+        <div class="max-w-6xl mx-auto px-4 md:px-6 lg:px-8 grid md:grid-cols-2 gap-10 items-center">
+            <div>
+                <span class="inline-block clay-card bg-white px-4 py-2 mb-6 text-sm font-semibold text-primary">Honden vanaf 5 maanden</span>
+                <h1 class="font-heading text-dark text-4xl md:text-5xl leading-tight mb-6">Samen Verder cursus</h1>
+                <p class="text-lg text-text-light leading-relaxed mb-6">Een next level opvoedcursus. Juist in de gevoelige puberteitsfase is het zo belangrijk om op koers te blijven. Je bouwt verder op de basis en werkt aan rust, zelfbeheersing en vertrouwen.</p>
+                <p class="text-text-light leading-relaxed mb-8">We trainen niet alleen op de hondenschool, maar gaan ook naar buiten. De echte wereld in. De groepen zijn bewust klein — maximaal 3 honden.</p>
+                <a href="contact.html" class="clay-btn bg-primary text-white px-8 py-4 font-semibold text-lg cursor-pointer hover:bg-primary-light inline-block min-h-[44px]">Strippenkaart aanschaffen — €99,-</a>
+            </div>
+            <div class="clay-card overflow-hidden p-2 bg-white">
+                <img src="images/training2.jpg" alt="Training bij Fides" class="w-full h-[400px] object-cover rounded-[16px]">
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 md:py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 md:px-6 lg:px-8">
+            <h2 class="font-heading text-dark text-3xl md:text-4xl text-center mb-12">Hoe werkt het?</h2>
+            <div class="space-y-8">
+                <div class="clay-card bg-bg p-6 md:p-8 flex gap-4 items-start">
+                    <div class="w-12 h-12 min-w-[48px] rounded-full bg-primary text-white flex items-center justify-center font-heading font-bold text-xl">1</div>
+                    <div>
+                        <h3 class="font-heading text-dark text-xl mb-2">Strippenkaart — €99,-</h3>
+                        <p class="text-text-light leading-relaxed">Start met een strippenkaart van 4 lessen. Geeft ook toegang tot het inloopspreekuur met Rianne Jansen. Drie maanden geldig.</p>
+                    </div>
+                </div>
+                <div class="clay-card bg-bg p-6 md:p-8 flex gap-4 items-start">
+                    <div class="w-12 h-12 min-w-[48px] rounded-full bg-primary text-white flex items-center justify-center font-heading font-bold text-xl">2</div>
+                    <div>
+                        <h3 class="font-heading text-dark text-xl mb-2">Themalessen naar keuze</h3>
+                        <p class="text-text-light leading-relaxed">Er zijn 7 verschillende themalessen beschikbaar. Je kiest zelf welke op dat moment bij jou en je hond passen. Focus op samen wandelen? Zelfbeheersing? Omgaan met prikkels? Jij bepaalt.</p>
+                    </div>
+                </div>
+                <div class="clay-card bg-bg p-6 md:p-8 flex gap-4 items-start">
+                    <div class="w-12 h-12 min-w-[48px] rounded-full bg-primary text-white flex items-center justify-center font-heading font-bold text-xl">3</div>
+                    <div>
+                        <h3 class="font-heading text-dark text-xl mb-2">Online leeromgeving</h3>
+                        <p class="text-text-light leading-relaxed">Toegang tot oefeningen en thema's uit de lessen. Thuis op je eigen moment terugkijken en verder verdiepen.</p>
+                    </div>
+                </div>
+                <div class="clay-card bg-bg p-6 md:p-8 flex gap-4 items-start">
+                    <div class="w-12 h-12 min-w-[48px] rounded-full bg-primary text-white flex items-center justify-center font-heading font-bold text-xl">4</div>
+                    <div>
+                        <h3 class="font-heading text-dark text-xl mb-2">Inloopspreekuur</h3>
+                        <p class="text-text-light leading-relaxed">Sparren met hondengedragsdeskundige Rianne Jansen. Vragen stellen, twijfels delen, bijsturen voordat het probleem groter wordt.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 md:py-20">
+        <div class="max-w-4xl mx-auto px-4 md:px-6 lg:px-8">
+            <h2 class="font-heading text-dark text-3xl md:text-4xl text-center mb-4">Nieuw bij Fides?</h2>
+            <p class="text-text-light text-lg text-center leading-relaxed mb-8">Kennen we jullie nog niet? Dan plannen we eerst een privéles in. Zo kunnen we rustig kennismaken, je vragen beantwoorden en inschatten of deze cursus bij jullie past. Privélessen zijn op woensdag- of vrijdagochtend.</p>
+            <div class="text-center">
+                <a href="contact.html" class="clay-btn bg-cta text-white px-8 py-4 font-semibold text-lg cursor-pointer hover:bg-cta-hover inline-block min-h-[44px]">Plan een kennismaking</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 md:py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
+            <h2 class="font-heading text-dark text-3xl md:text-4xl text-center mb-12">Wat klanten zeggen</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="clay-card bg-bg p-6">
+                    <div class="star text-lg mb-3">★★★★★</div>
+                    <p class="text-text-light leading-relaxed italic">"Met onze Rottweiler deelgenomen aan de cursus bij Fides. Rianne heeft ons geleerd om vooral goed gedrag te belonen en dat werkt fantastisch."</p>
+                </div>
+                <div class="clay-card bg-bg p-6">
+                    <div class="star text-lg mb-3">★★★★★</div>
+                    <p class="text-text-light leading-relaxed italic">"Wij zijn gestart bij Rianne met de 1 op 1 begeleiding. We zijn niet normaal blij dat we het gestart zijn."</p>
+                    <p class="font-semibold text-dark text-sm mt-3">— Rebecca Ringeling</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 md:py-20 bg-primary/5">
+        <div class="max-w-3xl mx-auto px-4 md:px-6 lg:px-8 text-center">
+            <h2 class="font-heading text-dark text-3xl md:text-4xl mb-4">Samen verder?</h2>
+            <p class="text-text-light text-lg mb-8">Lessen op woensdag, vrijdag of zaterdag. Je kiest zelf een vaste trainingsdag. Strippenkaart 4 lessen voor €99,-.</p>
+            <a href="contact.html" class="clay-btn bg-primary text-white px-8 py-4 font-semibold text-lg cursor-pointer hover:bg-primary-light inline-block min-h-[44px]">Neem contact op</a>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white/80 py-12">
+        <div class="max-w-6xl mx-auto px-4 md:px-6 lg:px-8 grid md:grid-cols-3 gap-10">
+            <div><h4 class="font-heading text-white text-lg mb-4">Fides Hondentraining</h4><p class="text-sm">Boschakker 1, 5358 PA Huisseling</p><p class="text-sm mt-1">Den Ong 37, 5371 DH Ravenstein</p></div>
+            <div><h4 class="font-heading text-white text-lg mb-4">Cursussen</h4><ul class="space-y-2 text-sm"><li><a href="puppycursus.html" class="hover:text-primary transition-colors cursor-pointer">Puppycursus XXL</a></li><li><a href="samen-verder.html" class="hover:text-primary transition-colors cursor-pointer">Samen Verder</a></li><li><a href="funklas.html" class="hover:text-primary transition-colors cursor-pointer">Funklas</a></li><li><a href="prive.html" class="hover:text-primary transition-colors cursor-pointer">Privé</a></li></ul></div>
+            <div><h4 class="font-heading text-white text-lg mb-4">Contact</h4><p class="text-sm"><a href="mailto:info@fideshondentraining.nl" class="hover:text-primary transition-colors cursor-pointer">info@fideshondentraining.nl</a></p><p class="text-sm mt-1"><a href="tel:0623937895" class="hover:text-primary transition-colors cursor-pointer">06 23 93 78 95</a></p></div>
+        </div>
+        <div class="max-w-6xl mx-auto px-4 mt-8 pt-6 border-t border-white/10 text-center text-xs text-white/50">&copy; 2026 Fides Hondentraining. Gebouwd door <a href="https://www.code-lieshout.nl" class="hover:text-primary transition-colors cursor-pointer">Code Lieshout</a>.</div>
+    </footer>
+    <script>const toggle=document.getElementById('menu-toggle'),menu=document.getElementById('mobile-menu'),close=document.getElementById('menu-close');toggle.addEventListener('click',()=>menu.classList.remove('hidden'));close.addEventListener('click',()=>menu.classList.add('hidden'));menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>menu.classList.add('hidden')));</script>
+</body>
+</html>
